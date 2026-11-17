@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f9;
+}
+.header{
+  background-color: #183b64;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+.navbar{
+  background-color: #244e75;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+main{
+  padding: 30px;
+  text-align: center;
+}
+.liste-etudiants{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.carte{
+  background-color: white;
+  width: 280px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #cccccc;
+  text-align: left;
+}
+.carte h2{
+  color: #183b64;
+}
+.footer{
+  background-color: #183b64;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+.photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+h1 {
+  color: #1d4ed8;
+  font-size: 25px;
+}
+h2 {
+  color: #333;
+}
+p {
+  color: #555;
+  text-align: left;
+  line-height: 1.5;
+}
+.bouton {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 25px;
+  background: #2563eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+.bouton:hover {
+  background: #2563eb;
+}

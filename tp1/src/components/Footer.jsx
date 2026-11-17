@@ -1,7 +1,7 @@
 function Footer(){
     return (
         <footer className="footer">
-            <p>c 2026 - Universite. Tous droits reserves.</p>
+            <p>c 2026 - Universite ISIMA. Tous droits reserves.</p>
         </footer>
     );
 }

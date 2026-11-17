@@ -1,30 +1,30 @@
 function StudentCard(props) {
   return (
     <div className='card'>
-        <img src={props.image} />
+        <img src={props.image} className="photo" />
         <h1>
             fiche etudiant
         </h1>
         <p>
-            Nom & Prenom:{props.prenom} {props.nom}
+            Nom & Prenom: {props.prenom} {props.nom}
         </p>
         <p>
-            Email:{props.email}
+            Email: {props.email}
         </p>
         <p>
-            Telephone:{props.telephone}
+            Telephone: {props.telephone}
         </p>
         <p>
-            Filiere:{props.filiere}
+            Filiere: {props.filiere}
         </p>
         <p>
-            AnneeEtude:{props.anneeEtude}
+            AnneeEtude: {props.anneeEtude}
         </p>
         <p>
-            Groupe:{props.groupe}
+            Groupe: {props.groupe}
         </p>
         <p>
-            Ville :{props.ville}
+            Ville : {props.ville}
         </p>
     </div>
   );

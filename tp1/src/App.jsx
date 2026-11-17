@@ -4,9 +4,14 @@ import Footer from "./components/Footer.jsx";
 import './App.css';
 import StudentCard from "./components/StudentCard.jsx";
 import studentImage from "./img.jpeg";
+import MariemImage from "./mariem.jpeg";
+import SarraImage from "./sarra.jpeg";
+import SlimImage from "./slim.jpeg";
+import SaharImage from "./sahar.jpeg";
 function App(){
-  const etudiant = [
+  const etudiants = [
     {
+      id:1,
       prenom :"nawres",
       nom :"yahyaoui",
       email :"yahyaouinawres006@gmail.com",
@@ -18,6 +23,7 @@ function App(){
       image : studentImage,
     },
     {
+      id:2,
       prenom:"Slim",
       nom:"Boubaker",
       email:"slimboubaker@gmail.com",
@@ -26,9 +32,10 @@ function App(){
       anneeEtude:"2 eme annee",
       groupe:"grp B",
       ville:"Mahdia",
-      image: studentImage,
+      image: SlimImage,
     },
     {
+      id:3,
       prenom:"Sarra",
       nom:"Trabelsi",
       email:"sarra.trabelsi@gmail.com",
@@ -37,9 +44,10 @@ function App(){
       anneeEtude:"2 eme annee",
       groupe:"grp B",
       ville:"Mahdia",
-      image:studentImage,
+      image:SarraImage,
     },
     {
+      id:4,
       prenom:"Mariem",
       nom:"Khalfallah",
       email:"mariem.khalfallah@gmail.com",
@@ -48,7 +56,19 @@ function App(){
       anneeEtude:"2 eme annee",
       groupe:"grp B",
       ville:"Mahdia",
-      image:studentImage,
+      image:MariemImage,
+    },
+    {
+      id:5,
+      prenom :"sahar",
+      nom :"harrabi",
+      email :"saharharrabi@gmail.com",
+      telephone :"+216 11 111 111",
+      filiere : "Reseaux",
+      anneeEtude : "2eme annee",
+      groupe:"IRS2",
+      ville: "Lbazda",
+      image : SaharImage,
     }
 ];
 return (
